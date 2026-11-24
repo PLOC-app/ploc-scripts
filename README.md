@@ -49,11 +49,6 @@ ploc://script?s=<value>       open it in the PLOC script editor
 Each script page shows both as buttons and QR codes. `<value>` is either the base64url of the script itself, or the URL-encoded `https://` address of a `script.js`. The
 app tells them apart.
 
-### One-time setup
-
-In the GitHub repository settings: *Pages* → source **GitHub Actions**; *Branches* → protect `main` and require a
-review from Code Owners.
-
 ## License
 
 [MIT](LICENSE)
